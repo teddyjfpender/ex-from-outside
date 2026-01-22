@@ -257,7 +257,7 @@ describe('Execute From Outside (SNIP-9)', () => {
       execute_before: now_seconds + 3600, // 1 hour from now
     };
 
-    // Define the call to be executed: transfer 100 wei of STRK
+    // Define the call to be executed: transfer 100 FRI of STRK
     const transferAmount = cairo.uint256(100n);
     const transferCall: Call = {
       contractAddress: strkTokenAddress,
